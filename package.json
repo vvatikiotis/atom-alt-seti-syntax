@@ -1,0 +1,31 @@
+{
+  "name": "alt-seti-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Alt Seti Syntax - Based on Seti Syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvatikiotis/alt-seti-syntax.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">1.0"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/vvatikiotis/alt-seti-syntax/issues"
+  },
+  "homepage": "https://github.com/vvatikiotis/alt-seti-syntax#readme",
+  "_id": "alt-seti-syntax@0.0.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
