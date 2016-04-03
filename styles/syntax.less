@@ -453,8 +453,14 @@ atom-text-editor[mini], :host(.mini) {
 .storage {
   color: @deepblue;
 }
-.storage.type.function.js, .storage.type.class.js {
+.storage.type.function.js,
+.storage.type.class.js,
+.storage.type.extends.js {
   color: @yellow;
+}
+.storage.type.class.doc {
+  color: @comment;
+  font-style: italic;
 }
 .entity.name.function.js {
   color: @blue;
@@ -464,4 +470,7 @@ atom-text-editor[mini], :host(.mini) {
 }
 .variable.language.this.js {
   color: @red;
+}
+.constant.numeric.js {
+  color: @code-font-color;
 }
