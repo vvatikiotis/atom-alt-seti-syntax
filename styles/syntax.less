@@ -469,6 +469,18 @@ atom-text-editor[mini], :host(.mini) {
 .string.unquoted.js {
   color: @code-font-color;
 }
+.string.quasi.js {
+  .punctuation.definition.quasi.begin.js {
+    color: @stringblue !important;
+  }
+  .entity.quasi.element.js {
+    color: @stringblue !important;
+    .variable.other.readwrite.js {
+      color: @stringblue !important;
+    }
+  }
+  color: @stringblue !important;
+}
 .variable.language.this.js {
   color: @red;
   text-decoration: underline;
