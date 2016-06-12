@@ -43,7 +43,7 @@ class Bread {
 
 }
 
-class Sandwhich extends Bread {
+class Sandwich extends Bread {
 
   constructor(slices) {
     this.bread = super(slices);
@@ -58,7 +58,7 @@ class Sandwhich extends Bread {
   
 }
 
-var Club = new Sandwhich(3).toppings(['roast beef', 'turkey']);
+var Club = new Sandwich(3).toppings(['roast beef', 'turkey']);
 
 
 /*
